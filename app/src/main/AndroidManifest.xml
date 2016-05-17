@@ -2,12 +2,22 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="es.ateneasystems.cubel.periodica">
 
+    <!-- Permisos de aplicacion -->
+    <!-- FIN Permisos de aplicacion -->
+
     <application
+        android:name=".Global.Configuracion"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!-- END meta-data tag is required to use Google Play Services. -->
+        <!-- Actividad principal -->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -15,6 +25,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- FIN Actividad principal -->
+
+        <!-- Actividad Opciones -->
+        <activity android:name=".SettingsActivity" />
+        <!-- FIN Actividad Opciones -->
+
+
     </application>
 
 </manifest>

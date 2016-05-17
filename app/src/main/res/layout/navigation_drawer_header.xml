@@ -2,6 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="192dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="bottom"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
@@ -10,14 +11,25 @@
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         android:background="@drawable/header_rojo_amarillo" />
-
-    <ImageView
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="@dimen/navigation_drawer_header_margin"
+    <!--
+        <ImageView
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="@dimen/navigation_drawer_header_margin"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ateneasystems_logo_redondo" />
+        -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_image"
         android:layout_width="64dp"
         android:layout_height="64dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="@dimen/navigation_drawer_header_margin"
         android:scaleType="centerCrop"
-        android:src="@drawable/ateneasystems_logo_redondo" />
+        android:src="@drawable/ateneasystems_logo_redondo"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000" />
 
     <LinearLayout
         android:layout_width="match_parent"

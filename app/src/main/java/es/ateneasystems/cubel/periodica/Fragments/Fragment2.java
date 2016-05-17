@@ -22,7 +22,7 @@ public class Fragment2 extends Fragment {
         // Inflate the layout for this fragment
         final View view = inflater.inflate(R.layout.fragment_inbox, container, false);
 
-        ((MainActivity) getActivity()).getSupportActionBar().setTitle("Inbox");
+        ((MainActivity) getActivity()).getSupportActionBar().setTitle("Fragment_X");
 
         Button buttonChangeText = (Button) view.findViewById(R.id.buttonFragmentInbox);
 
