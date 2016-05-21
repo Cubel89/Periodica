@@ -32,6 +32,8 @@ public class Configuracion extends Application {
 
         //Iniciamos la publicidad a no
         this.publicidad = false;
+
+        //
     }
 
 
