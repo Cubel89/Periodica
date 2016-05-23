@@ -6,6 +6,7 @@
 
     <!-- Titulos páginas -->
     <string name="title_activity_settings">Configuración</string>
+    <string name="title_activity_ayuda">Ayuda y Contacto</string>
 
     <!-- Menu lateral -->
     <string name="menu_lateral_titulo_inicio">Inicio</string>

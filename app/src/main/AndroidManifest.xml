@@ -30,6 +30,9 @@
         <!-- Actividad Opciones -->
         <activity android:name=".SettingsActivity" />
         <!-- FIN Actividad Opciones -->
+        <!-- Actividad Ayuda y Contacto -->
+        <activity android:name=".AyudaActivity" />
+        <!-- FIN Actividad Ayuda y Contacto -->
 
 
     </application>
