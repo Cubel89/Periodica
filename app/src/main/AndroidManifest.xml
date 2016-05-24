@@ -33,6 +33,9 @@
         <!-- Actividad Ayuda y Contacto -->
         <activity android:name=".AyudaActivity" />
         <!-- FIN Actividad Ayuda y Contacto -->
+        <!-- Actividad Ayuda y Contacto -->
+        <activity android:name=".AyudaActivity" />
+        <!-- FIN Actividad Ayuda y Contacto -->
 
 
     </application>
